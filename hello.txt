@@ -2,5 +2,6 @@ My first commit in test-repo
 new day
 This is a change from the experiment branch.
 This is a different change from main branch.
-This is a new line from feature-2 branch.
+This is a new line from feature-2 branch.D
 This line is only in main branch.
+This line is only in branch-A
