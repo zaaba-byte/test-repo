@@ -36,3 +36,49 @@ This file will grow as I learn and practice Git.
 ---
 
 *(More terms to be added as I continue learning Git.)*
+---
+
+## Git History (Visual)
+
+### Example: `git log --graph --oneline --decorate`
+
+---
+
+## Git History (Visual)
+
+### Example: `git log --graph --oneline --decorate`
+
+
+- `*` → shows a commit node  
+- `HEAD -> main` → current position (HEAD is pointing at `main`)  
+- `origin/main` → remote branch pointer  
+- The commit hash (e.g., `f3c2a11`) is the unique ID  
+
+---
+
+## Detached HEAD
+- When HEAD points directly to a commit instead of a branch.  
+- Happens when you check out a commit hash or a tag directly.  
+- You can look around history but new commits won’t belong to a branch unless you create one.
+A---B---C main
+         \
+          D---E feature
+---
+
+## Visual Git History
+
+### git log --graph --oneline --decorate
+
+This command shows a compact visual representation of the commit history.
+
+Example output:
+
+
+### Branch Diagram Example
+
+## Git Glossary
+
+**Graph (`--graph`)** → ASCII tree of commits and branches.  
+**Decorate (`--decorate`)** → Show branch names, HEAD, tags on commits.  
+**Oneline (`--oneline`)** → Compact one-line-per-commit view.  
+**All (`--all`)** → Include history from all branches, not just current.  
