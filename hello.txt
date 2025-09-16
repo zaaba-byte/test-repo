@@ -1,1 +1,2 @@
 Hello from feature branch!
+This is a new practice line.
